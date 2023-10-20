@@ -8,6 +8,12 @@
         
         Build out scaffold: 
             * Makfile
+            * requirements.txt
+            * test_lib.py
+            * python_library
+            * Dockerfile
+            * Command line tools    
+            * Microservices 
 
 
 
