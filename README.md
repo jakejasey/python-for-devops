@@ -15,6 +15,8 @@
             * Command line tools    
             * Microservices 
 
+        1. Create virt env
+
 
 
     ### Colab Notebook? - Not really needed
