@@ -16,6 +16,9 @@
             * Microservices 
 
         1. Create virt env
+            I personally like to have a ~/python_env that contains
+            all my python virtual enviornments. But they can also 
+            be put into a ~/.venv directory. 
 
 
 
