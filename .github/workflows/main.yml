@@ -11,7 +11,21 @@ jobs:
           - name: Set up Python ${{ matrix.python-version }}
             uses: actions/setup-python@v2
             with: 
-                python-version: ${{ matrix.python-version }}
-          - name: Install dependencies 
+                python-version: ${{ matrix.python-version }} - name: Install dependencies 
             run: |
                 make install
+          - name: Lint with pylint
+            run: |
+              make lint
+
+          - name: Test with PyTest
+            run: |
+              make test
+
+          - name: Lint with pylint
+            run: |
+              make lint
+
+          - name: Format Code with Python Black
+            run: |
+              make format
