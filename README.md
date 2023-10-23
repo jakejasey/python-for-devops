@@ -1,3 +1,5 @@
+[![.github/workflows/main.yml](https://github.com/jakejasey/python-for-devops/actions/workflows/main.yml/badge.svg)](https://github.com/jakejasey/python-for-devops/actions/workflows/main.yml)
+
 # Python for Devops
 
 ## Create project scafolding
@@ -28,7 +30,6 @@
 
 ## Github Actions 
     - Check Yaml syntax
-
 
 ## Comman-Line tools
 
